@@ -63,3 +63,9 @@ set MAVEN_OPTS=-Xmx512m
     <artifactId>sonar-maven-plugin</artifactId>
     <version>3.0.2</version>
 </plugin>
+
+
+
+Failed to execute goal org.sonarsource.scanner.maven:sonar-maven-plugin:3.1.1:sonar (default-cli) on project Hadoope: Execution default-cli of goal org.sonarsource.scanner.maven:sonar-maven-plugin:3.1.1:sonar failed: Unable to load the mojo 'sonar' in the plugin 'org.sonarsource.scanner.maven:sonar-maven-plugin:3.1.1' due to an API incompatibility: org.codehaus.plexus.component.repository.exception.ComponentLookupException: org/sonarsource/scanner/maven/SonarQubeMojo : Unsupported major.minor version 52.0
+
+
