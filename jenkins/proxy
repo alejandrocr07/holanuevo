@@ -1,0 +1,32 @@
+	<proxy>
+      <id>everis</id>
+      <active>true</active>
+      <protocol>http</protocol>
+      <username></username>
+      <password></password>
+      <host>10.211.8.100</host>
+      <port>8080</port>
+      <nonProxyHosts>localhost</nonProxyHosts>
+    </proxy>
+  </proxies>
+  
+    <profile>
+	<id>sonar</id>
+		<activation>
+			<activeByDefault>true</activeByDefault>
+		</activation>
+	<properties>
+		<sonar.jdbc.url>
+			jdbc:h2:tcp://192.168.56.108:9092/sonar
+		</sonar.jdbc.url>
+		<sonar.jdbc.username>sonar</sonar.jdbc.username>
+		<sonar.jdbc.password>sonar</sonar.jdbc.password>
+<!--Optional URL to server. Default value is HYPERLINK "http://localhost:9000/"http://localhost:9000 -->
+		<sonar.host.url>
+		http://192.168.56.108:9000
+		</sonar.host.url>
+	</properties>
+  </profile>
+  
+  
+  
