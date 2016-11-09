@@ -41,3 +41,19 @@
     <version>3.2-RC2</version>
 </dependency>
   
+  <build>
+  <pluginManagement>
+    <plugins>
+      <plugin>
+        <groupId>org.sonarsource.scanner.maven</groupId>
+        <artifactId>sonar-maven-plugin</artifactId>
+        <version>3.1.1</version>
+      </plugin>
+    </plugins>
+  </pluginManagement>
+</build>
+
+
+export MAVEN_OPTS="-Xmx512m"
+
+set MAVEN_OPTS=-Xmx512m
