@@ -57,3 +57,9 @@
 export MAVEN_OPTS="-Xmx512m"
 
 set MAVEN_OPTS=-Xmx512m
+
+<plugin>
+    <groupId>org.codehaus.mojo</groupId>
+    <artifactId>sonar-maven-plugin</artifactId>
+    <version>3.0.2</version>
+</plugin>
