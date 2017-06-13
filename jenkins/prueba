@@ -1,0 +1,13 @@
+echo "Escribe nombre de la carpeta"
+read nombre
+cd /home
+mkdir $nombre
+cd $nombre
+array=(one two three four five)
+echo "creacion de arreglos"
+for item in ${array[*]}
+do
+        mkdir $item
+        echo "se copia archivo" $item
+        cp /home/alejandro/ejemplo.sh /home/$nombre/$item/
+done
